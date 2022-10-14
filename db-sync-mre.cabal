@@ -1,0 +1,13 @@
+cabal-version:      2.4
+name:               db-sync-mre
+version:            0.1.0.0
+author:             Finley McIlwaine
+maintainer:         finleymcilwaine@gmail.com
+
+executable db-sync-mre
+    main-is:          Main.hs
+    build-depends:
+        base ^>=4.14.3.0
+      , cardano-db
+    hs-source-dirs:   .
+    default-language: Haskell2010
